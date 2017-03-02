@@ -8,7 +8,7 @@ public class Quiz
 	{
 		int answer1 = 1, answer2 = 3, answer3 = 1, answer4 = 2, answer5 = 4;
 		int userAnswer1, userAnswer2, userAnswer3, userAnswer4, userAnswer5, testYes;
-		testYes = Integer.parseInt(JOptionPane.showInputDialog("Would you like to take a test over the NFL? \n(1)Yes or (2)No"));
+		testYes = Integer.parseInt(JOptionPane.showInputDialog("Would you like to take a quiz over the NFL? \n(1)Yes or (2)No"));
 		
 		if(testYes == 1)
 		{
