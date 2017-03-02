@@ -41,8 +41,9 @@ public class Quiz
 		{
 			JOptionPane.showMessageDialog(null, "Okay.");
 		}
-		
-		JOptionPane.showMessageDialog(null, "You got them all correct!");
+		if(testYes == 1)
+			
+			JOptionPane.showMessageDialog(null, "You got them all correct!");
 		
 		
 		
